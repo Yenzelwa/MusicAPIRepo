@@ -8,6 +8,10 @@ namespace MusicAppApi.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Home Page 
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
